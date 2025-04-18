@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input {
+    height: 5vh;
+    width: 50vw;
+
+}
+
+.button {
+    height: 5vh;
+    width: 20vw;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.main {
+    background-image: url("https://imgcdn.stablediffusionweb.com/2024/3/26/8406ce2f-0ca6-401c-bdcc-ac54aad83d41.jpg");
+    height: 100vh;
+    background-size: cover;
+    font-family: "bree serif";
+    padding: 50px;
+}
+
+#chat-box {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#message-input {
+    display: flex;
+    width: 400px;
+}
+
+#message-input input {
+    flex: 1;
+    padding: 10px;
+}
+
+#message-input button {
+    padding: 10px;
+}
+
+.message {
+    margin-bottom: 8px;
+}
+
+.system {
+    color: gray;
+    font-style: italic;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Live Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <h1>CHAT APPLICATION</h1>
+
+        <div id="login">
+            <input class="input" type="text" id="username" placeholder="Enter your name" />
+            <br />
+            <button class="button" onclick="joinChat()">Join Chat</button>
+        </div>
+
+
+        <div id="chat" style="display:none;">
+            <h2>Live Chat</h2>
+            <div id="chat-box"></div>
+            <div id="message-input">
+                <input type="text" id="message" placeholder="Type your message..." />
+                <button onclick="sendMessage()">Send</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
